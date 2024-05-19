@@ -21,5 +21,5 @@ for TLD in $TLDS; do
     DOMAIN="$BASE.$TLD"
 
     # Imprime o domínio completo no arquivo scopo
-    echo "$DOMAIN" >> scopo
+    echo "$DOMAIN" >> domain
 done
